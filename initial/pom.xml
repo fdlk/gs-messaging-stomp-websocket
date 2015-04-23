@@ -22,10 +22,15 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-messaging</artifactId>
         </dependency>
+        <dependency>
+        	<groupId>com.google.auto.value</groupId>
+        	<artifactId>auto-value</artifactId>
+        	<version>1.0</version>
+        </dependency>
     </dependencies>
 
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <build>
